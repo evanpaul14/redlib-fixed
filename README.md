@@ -442,3 +442,7 @@ Assign a default value for each user-modifiable setting by passing environment v
 | `HIDE_SIDEBAR_AND_SUMMARY`          | `["on", "off"]`                                                                                                                    | `off`         |
 | `FIXED_NAVBAR`                      | `["on", "off"]`                                                                                                                    | `on`          |
 | `REMOVE_DEFAULT_FEEDS`              | `["on", "off"]`                                                                                                                    | `off`         |
+
+# Acknowledgements 
+
+Credit to [baalajimaestro's fork](https://git.ptr.moe/baalajimaestro/redlib)
