@@ -14,12 +14,12 @@ on:
 env: 
   CARGO_TERM_COLOR: always
 
-  CARGO_TARGET_AARCH64_UNKNOWN_LINUX_MUSL_LINKER: aarch64-linux-gnu-gcc
-  CC_aarch64_unknown_linux_musl: aarch64-linux-gnu-gcc
+  CARGO_TARGET_AARCH64_UNKNOWN_LINUX_MUSL_LINKER: aarch64-linux-musl-gcc
+  CC_aarch64_unknown_linux_musl: aarch64-linux-musl-gcc
   CARGO_TARGET_AARCH64_UNKNOWN_LINUX_GNU_LINKER: aarch64-linux-gnu-gcc
   CC_aarch64_unknown_linux_gnu: aarch64-linux-gnu-gcc
-  CARGO_TARGET_ARMV7_UNKNOWN_LINUX_MUSLEABIHF_LINKER: arm-linux-gnueabihf-gcc
-  CC_armv7_unknown_linux_musleabihf: arm-linux-gnueabihf-gcc
+  CARGO_TARGET_ARMV7_UNKNOWN_LINUX_MUSLEABIHF_LINKER: arm-linux-musleabihf-gcc
+  CC_armv7_unknown_linux_musleabihf: arm-linux-musleabihf-gcc
 
 jobs:
   build:
