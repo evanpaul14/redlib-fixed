@@ -8,3 +8,4 @@ redlib.toml
 # nix files
 .direnv/
 result
+.DS_Store
